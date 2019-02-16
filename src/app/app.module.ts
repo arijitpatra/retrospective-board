@@ -2,21 +2,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { WentwellComponent } from './wentwell/wentwell.component';
-import { TobeimprovedComponent } from './tobeimproved/tobeimproved.component';
-import { StartdoingComponent } from './startdoing/startdoing.component';
-import { ActionitemsComponent } from './actionitems/actionitems.component';
+import { GenericBoardComponent } from './components/generic-board/generic-board.component';
+
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WentwellComponent,
-    TobeimprovedComponent,
-    StartdoingComponent,
-    ActionitemsComponent
+    GenericBoardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -47,3 +47,23 @@ textarea {
     background: transparent;
     resize: none;
 }
+
+.mgn-t-35 {
+	margin-top: 35px;
+}
+
+.wentWell {
+	background: #a3f1a3 !important;
+}
+
+.actionItems {
+	background: #ff6b6b !important;
+}
+
+.startDoing {
+	background: #ffb328 !important;
+}
+
+.needsImprovement {
+	background: #fbfb56 !important;
+}

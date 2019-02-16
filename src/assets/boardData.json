@@ -1,0 +1,24 @@
+{
+  "boardData": [
+    {
+      "title": "What went well",
+      "values": ["Trip"],
+      "boardType": "wentWell"
+    },
+    {
+      "title": "What needs improvement",
+      "values": ["Code"],
+      "boardType": "needsImprovement"
+    },
+    {
+      "title": "Start doing",
+      "values": ["Meditation", "Swimming", "Read"],
+      "boardType": "startDoing"
+    },
+    {
+      "title": "Action items",
+      "values": ["Book Tickets"],
+      "boardType": "actionItems"
+    }
+  ]
+}

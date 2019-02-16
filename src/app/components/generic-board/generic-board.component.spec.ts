@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TobeimprovedComponent } from './tobeimproved.component';
+import { GenericBoardComponent } from './generic-board.component';
 
-describe('TobeimprovedComponent', () => {
-  let component: TobeimprovedComponent;
-  let fixture: ComponentFixture<TobeimprovedComponent>;
+describe('GenericBoardComponent', () => {
+  let component: GenericBoardComponent;
+  let fixture: ComponentFixture<GenericBoardComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TobeimprovedComponent ]
+      declarations: [ GenericBoardComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TobeimprovedComponent);
+    fixture = TestBed.createComponent(GenericBoardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

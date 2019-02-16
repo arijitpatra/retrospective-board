@@ -1,0 +1,18 @@
+<div class="row mgn-t-35">
+  <div class="col-xs-12 text-center">
+    <h4>
+      {{ title }}
+      <i
+        id="add-{{ boardType }}"
+        class="icon-plus-sign"
+        (click)="addTile()"
+        title="Add"
+      ></i>
+    </h4>
+  </div>
+</div>
+<section id="{{ boardType }}-cards" class="card-section">
+  <div class="card-base {{ boardType }}" *ngFor="let item of values">
+    <span>{{ item }}</span>
+  </div>
+</section>
